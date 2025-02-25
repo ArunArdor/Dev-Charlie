@@ -1,0 +1,116 @@
+<!-- 
+  Project: Dev Charlie 
+  Author: Arun Batta
+  GitHub Refrence: https://github.com/barrycumbie/special-fortnight-charlie
+  Attribution:
+    - Bootstrap Framework: https://getbootstrap.com/
+    - Normalize.css: https://necolas.github.io/normalize.css/
+    - jQuery & jQuery UI: https://jquery.com/
+    - Web Safe Colors: https://htmlcolorcodes.com/color-chart/web-safe-color-chart/
+    - Accessible Color Palette: https://venngage.com/tools/accessible-color-palette-generator
+    - General CSS Reference: https://www.w3schools.com/Css/css_syntax.asp
+  Notes:
+    - This project follows best practices in web accessibility and responsive design.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dev Charlie Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- External Styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="styles/charlie-style.css">
+</head>
+<body>
+
+<!-- ✅ Short Description -->
+<header class="container mt-4 text-center">
+    <p class="lead">Develop & deploy a web app as a dashboard for past projects.</p>
+</header>
+
+<!-- ✅ Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <h1 class="visually-hidden">Dev Charlie Dashboard</h1>
+    <a class="navbar-brand" href="#">🦭Dev Charlie <span id="secretSeal">🦭</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link disabled" aria-disabled="true">Disabled</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ✅ Cards Section -->
+<div class="container my-5">
+  <div class="row g-4">
+    
+    <!-- 🔹 Project 1: Able -->
+    <div class="col-md-6">
+      <div class="card shadow-sm">
+        <img src="https://private-user-images.githubusercontent.com/178519738/416517030-ceb90f8e-966f-4d8e-8cd5-dec8f378eba8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA0NjE1NzYsIm5iZiI6MTc0MDQ2MTI3NiwicGF0aCI6Ii8xNzg1MTk3MzgvNDE2NTE3MDMwLWNlYjkwZjhlLTk2NmYtNGQ4ZS04Y2Q1LWRlYzhmMzc4ZWJhOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjI1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIyNVQwNTI3NTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jMTBjYzdjMTA2NDE1NTJlODYxMTk3N2E1ZjU4NTc3MTU4MWZkMmQ5ODZhMjUwZmNlM2MyZDk5MzUyNTIzMjQxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.MR6Z71NO50-l_qwt8UqUSooSC0JC6dKEIvPItxL8xgE" class="card-img-top img-thumbnail" alt="Able Project">
+        <div class="card-body">
+          <h5 class="card-title">Able</h5>
+          <p class="card-text">My Web App is a simple interactive webpage that allows users to explore useful links, view an image of the class mascot (a seal 🦭), and dynamically add new items to a list. It also includes social media links for easy access.</p>
+          <a href="arunardor.github.io/dev-able/" class="btn btn-primary">View App</a>
+          <a href="https://github.com/ArunArdor/dev-able" class="btn btn-secondary">Source Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 🔹 Project 2: Baker -->
+    <div class="col-md-6">
+      <div class="card shadow-sm">
+        <img src="https://private-user-images.githubusercontent.com/178519738/416516842-db1bf0d1-e69f-4012-abb9-a35d1b764c12.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA0NjE1NzYsIm5iZiI6MTc0MDQ2MTI3NiwicGF0aCI6Ii8xNzg1MTk3MzgvNDE2NTE2ODQyLWRiMWJmMGQxLWU2OWYtNDAxMi1hYmI5LWEzNWQxYjc2NGMxMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjI1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIyNVQwNTI3NTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kYmQ4M2Y4Y2MwZWJhOWY4ZDA0NmQ4NjA2ZjMxNWEwMTA0NDRmMmRhYTRkZGQ1M2U2NmM3NDJlYmExOWRhMzI4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.OL1EBnICp7sLPT2RidHYZMhxaLwa8HfyKbKqpTFD6Is">
+        <div class="card-body">
+          <h5 class="card-title">Baker</h5>
+          <p class="card-text">EyeView is a web app that provides a real-time simulation of different vision impairments, helping users understand how various eye conditions affect sight. It’s useful for accessibility awareness, education, and design testing.</p>
+          <a href="https://arunardor.github.io/eyeview/" class="btn btn-primary">View App</a>
+          <a href="https://github.com/ArunArdor/eyeview" class="btn btn-secondary">Source Code</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ✅ Footer -->
+<footer class="container py-3 border-top">
+    <div class="d-flex justify-content-between align-items-center">
+      <span class="text-muted">&copy; 2024 Dev Charlie</span>
+      <div>
+        <a href="https://github.com/ArunArdor" target="_blank" class="text-muted mx-2">
+          <i class="bi bi-github"></i> GitHub Profile
+        </a>
+        <a href="https://validator.w3.org/nu/" target="_blank" class="text-muted mx-2">
+          <i class="bi bi-check-circle"></i> Nu Validator
+        </a>
+        <a href="https://wave.webaim.org/" target="_blank" class="text-muted mx-2">
+          <i class="bi bi-bar-chart"></i> Wave Accessibility
+        </a>
+      </div>
+    </div>
+  </footer>  
+
+<!-- ✅ Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap.native/4.0.0/bootstrap-native.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.min.css">
+<script src="scripts/script.js"></script>
+
+</body>
+</html>
