@@ -67,6 +67,7 @@ open index.html
 
 <details>
   <summary>📁 Folder Structure (Click to expand)</summary>
+  Dev-Charlie/ ├── index.html ├── style.css ├── script.js └── assets/ └── images/
 </details>
 
 ## 📝 To-Do List
