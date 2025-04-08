@@ -69,15 +69,16 @@ open index.html
   <summary>📁 Folder Structure (Click to expand)</summary>
 </details>
 
-### ✅ Now:
-1. Go to [your GitHub repo](https://github.com/arunardor/Dev-Charlie)
-2. Click `README.md` → `Edit`
-3. Delete everything and paste this full version in
-4. Click **Commit changes**
-5. Check the preview — it’ll look perfect 🎯
+## 📝 To-Do List
 
-Once you’re done, submit:  
-👉 `https://github.com/arunardor`  
-✅ Assignment complete!
+- [ ] Add dark/light theme toggle 🌙  
+- [ ] Improve animations with GSAP or Framer Motion  
+- [x] Add responsive layout ✅
+
+
+## 🔗 Repo Index
+
+📘 [Professor Cumbie's Repo Index Gist](https://gist.github.com/barrycumbie/d9de8b5d1dffd3ccc9fbcedbe60ca3a1)
+
 
 
