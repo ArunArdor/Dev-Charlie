@@ -44,3 +44,40 @@ Created by **Arun Batta**
 git clone https://github.com/arunardor/Dev-Charlie.git
 cd Dev-Charlie
 open index.html
+``` 
+
+## 💻 Sample Code Block
+
+```html
+<section id="projects">
+  <h2>My Projects</h2>
+  <div class="project">
+    <h3>Portfolio Website</h3>
+    <p>A personal portfolio site made with HTML, CSS, and JavaScript.</p>
+  </div>
+</section>
+```
+
+## 🔁 Code Diff Example
+
+```diff
+- <h2>Portfolio</h2>
++ <h2>My Projects</h2>
+```
+
+<details>
+  <summary>📁 Folder Structure (Click to expand)</summary>
+</details>
+
+### ✅ Now:
+1. Go to [your GitHub repo](https://github.com/arunardor/Dev-Charlie)
+2. Click `README.md` → `Edit`
+3. Delete everything and paste this full version in
+4. Click **Commit changes**
+5. Check the preview — it’ll look perfect 🎯
+
+Once you’re done, submit:  
+👉 `https://github.com/arunardor`  
+✅ Assignment complete!
+
+
